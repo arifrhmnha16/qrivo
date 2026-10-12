@@ -1,8 +1,8 @@
-# Qrivo — Custom QR. Your Style.
+# Qrixo — Custom QR. Your Style.
 
 <div align="center">
 
-![Qrivo Banner](https://raw.githubusercontent.com/arifrhmnha16/qrivo/main/public/favicon.svg)
+![Qrixo Banner](https://raw.githubusercontent.com/arifrhmnha16/qrivo/main/public/favicon.svg)
 
 **Generator QR Code kustom modern, beresolusi tinggi, dan berkinerja cepat.**  
 *Dibuat dengan React 19, Vite, TypeScript, Tailwind CSS, dan qr-code-styling.*
@@ -14,6 +14,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 </div>
+
+---
+
+## 🌐 Live Deployment
+- **Produksi Resmi:** [https://qrixo.vercel.app](https://qrixo.vercel.app)
 
 ---
 
@@ -29,7 +34,7 @@
 - 🖼️ **Auto-Fit 1:1 Custom Logo**:
   - Unggah logo brand sendiri (PNG, SVG, JPG, WebP hingga 5 MB).
   - Pemrosesan canvas presisi 1:1 rasio aspek (*contain* / *crop*) dengan pilihan badge bentuk (lingkaran, rounded, square).
-  - Pustaka preset logo bawaan (Qrivo, Link, WiFi, Instagram, WhatsApp, GitHub, dll).
+  - Pustaka preset logo bawaan (Qrixo, Link, WiFi, Instagram, WhatsApp, GitHub, dll).
   - Opsi *Hide dots behind logo* dan pengaturan margin logo.
 - 🛡️ **Koreksi Error Reed-Solomon**: Pilihan level koreksi L (~7%), M (~15%), Q (~25%), dan H (~30%) untuk memastikan QR tetap mudah dipindai meskipun menggunakan logo.
 - 📊 **Diagnostik Scannability Real-time**: Indikator kontras rasio WCAG dan kalkulasi keterbacaan otomatis sebelum diunduh.

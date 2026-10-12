@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { RotateCcw, Palette, Sun, Moon } from 'lucide-react';
 import { PRESET_THEMES } from '../utils/presetThemes';
 import type { PresetTheme } from '../types/qr';
-import { QrivoLogo } from './QrivoLogo';
+import { QrixoLogo } from './QrixoLogo';
 
 interface HeaderProps {
   onApplyTheme: (theme: PresetTheme) => void;
@@ -27,8 +27,8 @@ export const Header: React.FC<HeaderProps> = ({
     <header className="relative w-full border-b border-[#E4E2DC] bg-[#FAF9F5] dark:bg-[#121215] dark:border-[#27272A] px-3.5 py-4 sm:px-6 sm:py-6 md:px-8 overflow-x-clip transition-colors duration-200">
       {/* Top action & branding bar */}
       <div className="mx-auto flex max-w-7xl items-center justify-between gap-2">
-        {/* Qrivo Geometric Brand Logo & Tagline */}
-        <QrivoLogo size="md" showTagline={true} />
+        {/* Qrixo Geometric Brand Logo & Tagline */}
+        <QrixoLogo size="md" showTagline={true} />
 
         {/* Action bar */}
         <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
@@ -129,10 +129,10 @@ export const Header: React.FC<HeaderProps> = ({
         </div>
       </div>
 
-      {/* Editorial Hero Statement with Qrivo & Tagline */}
+      {/* Editorial Hero Statement with Qrixo & Tagline */}
       <div className="mx-auto mt-4 sm:mt-6 max-w-4xl text-center px-2">
         <p className="font-mono text-[10px] sm:text-xs text-[#71717A] dark:text-zinc-400 tracking-wider mb-1.5 uppercase">
-          Qrivo · Custom QR. Your Style.
+          Qrixo · Custom QR. Your Style.
         </p>
         
         <h1 className="font-serif text-2xl sm:text-4xl md:text-5xl font-medium tracking-tight text-[#111111] dark:text-zinc-50 leading-tight sm:leading-[1.15]">

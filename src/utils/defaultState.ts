@@ -4,26 +4,26 @@ export const DEFAULT_QR_STATE: QRState = {
   // Content
   dataType: 'url',
   url: 'https://github.com',
-  text: 'Qrivo — Custom QR. Your Style.',
+  text: 'Qrixo — Custom QR. Your Style.',
   wifi: {
-    ssid: 'Qrivo_HighSpeed',
-    password: 'QrivoStyle2026',
+    ssid: 'Qrixo_HighSpeed',
+    password: 'QrixoStyle2026',
     encryption: 'WPA',
     hidden: false,
   },
   email: {
-    address: 'halo@qrivo.id',
-    subject: 'Qrivo Custom QR Inquiry',
-    body: 'Halo, saya ingin membuat custom QR Code dengan Qrivo.',
+    address: 'halo@qrixo.id',
+    subject: 'Qrixo Custom QR Inquiry',
+    body: 'Halo, saya ingin membuat custom QR Code dengan Qrixo.',
   },
   phone: '+6281234567890',
   vcard: {
     firstName: 'Alex',
-    lastName: 'Qrivo',
+    lastName: 'Qrixo',
     phone: '+6281234567890',
-    email: 'alex@qrivo.id',
-    organization: 'Qrivo Studio',
-    url: 'https://qrivo.id',
+    email: 'alex@qrixo.id',
+    organization: 'Qrixo Studio',
+    url: 'https://qrixo.id',
   },
 
   // Dots
@@ -65,5 +65,5 @@ export const DEFAULT_QR_STATE: QRState = {
   // Export Settings
   exportSize: 1024,
   exportFormat: 'png',
-  exportFileName: 'qrivo-code',
+  exportFileName: 'qrixo-code',
 };

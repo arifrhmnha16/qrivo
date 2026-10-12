@@ -17,8 +17,8 @@ export const PRESET_THEMES: PresetTheme[] = [
   },
   {
     id: 'cobalt-signature',
-    name: 'Qrivo Cobalt Signature',
-    description: 'Warna biru signature khas Qrivo untuk branding modern',
+    name: 'Qrixo Cobalt Signature',
+    description: 'Warna biru signature khas Qrixo untuk branding modern',
     dotType: 'rounded',
     dotColor: '#1D4ED8',
     dotUseGradient: true,

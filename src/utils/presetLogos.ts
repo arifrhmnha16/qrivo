@@ -7,9 +7,9 @@ export interface PresetLogo {
 // Crisp, clean SVGs encoded as data URLs
 export const PRESET_LOGOS: PresetLogo[] = [
   {
-    id: 'qrivo',
-    name: 'Qrivo',
-    dataUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="24" fill="%231D4ED8"/><rect x="18" y="18" width="46" height="46" rx="12" fill="none" stroke="%23FFFFFF" stroke-width="7"/><rect x="30" y="30" width="22" height="22" rx="5" fill="%23FFFFFF"/><path d="M54 54 L76 76" stroke="%23FFFFFF" stroke-width="8" stroke-linecap="round"/><circle cx="76" cy="76" r="4" fill="%23FFFFFF"/></svg>`,
+    id: 'qrixo',
+    name: 'Qrixo',
+    dataUrl: `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="24" fill="%231D4ED8"/><rect x="18" y="18" width="46" height="46" rx="12" fill="none" stroke="%23FFFFFF" stroke-width="7"/><rect x="30" y="30" width="22" height="22" rx="5" fill="%23FFFFFF"/><path d="M52 52 L78 78" stroke="%23FFFFFF" stroke-width="8" stroke-linecap="round"/><path d="M78 54 L56 76" stroke="%23FFFFFF" stroke-width="6.5" stroke-linecap="round"/><circle cx="78" cy="78" r="4" fill="%23FFFFFF"/></svg>`,
   },
   {
     id: 'link',

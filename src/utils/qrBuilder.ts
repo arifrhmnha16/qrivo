@@ -81,7 +81,7 @@ export async function exportQRCode(
   const exportInstance = new QRCodeStyling(exportOpts);
 
   onProgress?.('Mengunduh file...');
-  const fileName = (state.exportFileName.trim() || 'qrivo-qr-code')
+  const fileName = (state.exportFileName.trim() || 'qrixo-qr-code')
     .toLowerCase()
     .replace(/[^a-z0-9_-]/g, '-');
 

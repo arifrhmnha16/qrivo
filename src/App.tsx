@@ -33,7 +33,7 @@ export const App: React.FC = () => {
 
   // Dark Theme State with persistence and system preference detection
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
-    const saved = localStorage.getItem('qrivo_theme') || localStorage.getItem('qr_theme');
+    const saved = localStorage.getItem('qrixo_theme') || localStorage.getItem('qrivo_theme') || localStorage.getItem('qr_theme');
     if (saved) return saved === 'dark';
     return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   });
@@ -41,10 +41,10 @@ export const App: React.FC = () => {
   useEffect(() => {
     if (isDarkMode) {
       document.documentElement.classList.add('dark');
-      localStorage.setItem('qrivo_theme', 'dark');
+      localStorage.setItem('qrixo_theme', 'dark');
     } else {
       document.documentElement.classList.remove('dark');
-      localStorage.setItem('qrivo_theme', 'light');
+      localStorage.setItem('qrixo_theme', 'light');
     }
   }, [isDarkMode]);
 
@@ -262,7 +262,7 @@ export const App: React.FC = () => {
       <footer className="mt-8 sm:mt-16 border-t border-[#E4E2DC] bg-[#FAF9F5] dark:border-[#27272A] dark:bg-[#121215] py-6 sm:py-8 text-center text-xs text-[#71717A] dark:text-zinc-500">
         <div className="mx-auto max-w-7xl px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
           <div className="flex items-center gap-2 font-mono text-[10px] sm:text-[11px] dark:text-zinc-400">
-            <span className="font-bold text-[#111111] dark:text-zinc-200">QRIVO</span>
+            <span className="font-bold text-[#111111] dark:text-zinc-200">QRIXO</span>
             <span>·</span>
             <span>CUSTOM QR. YOUR STYLE.</span>
             <span>·</span>

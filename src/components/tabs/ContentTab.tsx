@@ -267,7 +267,7 @@ export const ContentTab: React.FC<ContentTabProps> = ({ state, onChange }) => {
                       vcard: { ...state.vcard, organization: e.target.value },
                     })
                   }
-                  placeholder="PT Qrivo Kreasi Digital"
+                  placeholder="PT Qrixo Kreasi Digital"
                   className="w-full rounded-lg border border-[#D4D4D8] bg-white dark:border-[#333338] dark:bg-[#1A1A1E] dark:text-zinc-100 px-3 py-2 text-sm sm:text-xs text-[#18181B] focus:border-[#1D4ED8] focus:outline-none"
                 />
               </div>
@@ -283,7 +283,7 @@ export const ContentTab: React.FC<ContentTabProps> = ({ state, onChange }) => {
                       vcard: { ...state.vcard, url: e.target.value },
                     })
                   }
-                  placeholder="https://qrivo.id"
+                  placeholder="https://qrixo.id"
                   className="w-full rounded-lg border border-[#D4D4D8] bg-white dark:border-[#333338] dark:bg-[#1A1A1E] dark:text-zinc-100 px-3 py-2 text-sm sm:text-xs text-[#18181B] focus:border-[#1D4ED8] focus:outline-none"
                 />
               </div>
